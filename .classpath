@@ -6,8 +6,14 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/Users/cora/Downloads/c3p0-JARs/c3p0-0.9.5.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/cora/Downloads/c3p0-JARs/mchange-commons-java-0.2.16.jar"/>
 	<classpathentry kind="lib" path="C:/Users/cora/Downloads/mysql-connector-java-8.0.17.jar"/>
+=======
+	<classpathentry kind="lib" path="/home/gentil/Documentos/Arquivos necessários JDBC/c3p0-0.9.5.4.jar"/>
+	<classpathentry kind="lib" path="/home/gentil/Documentos/Arquivos necessários JDBC/mchange-commons-java-0.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/gentil/Documentos/Arquivos necessários JDBC/mysql-connector-java-8.0.17.jar"/>
+>>>>>>> f31c2787c8f03154399494acfe2495a427918dd7
 	<classpathentry kind="output" path="bin"/>
 </classpath>
