@@ -7,7 +7,6 @@ import java.sql.SQLException;
 public class TestaRemocao {
 
 	public static void main(String[] args) throws SQLException {
-<<<<<<< HEAD
 		
 		ConnectionFactory connectionFactory = new ConnectionFactory();
 		
@@ -25,23 +24,6 @@ public class TestaRemocao {
 			
 			System.out.println("Quantidades de linhas que foram modificadas: " + linhasModificadas);
 			
-=======
-
-		ConnectionFactory connectionFactory = new ConnectionFactory();
-
-		try (Connection con = connectionFactory.recuperarConexao()) {
-
-//			evita sql injection
-			PreparedStatement stm = con.prepareStatement("DELETE FROM PRODUTO WHERE ID > ?");
-
-			stm.setInt(1, 2);
-
-			stm.execute();
-
-			Integer linhasModificadas = stm.getUpdateCount();
-
-			System.out.println("Quantidades de linhas que foram modificadas: " + linhasModificadas);
->>>>>>> f31c2787c8f03154399494acfe2495a427918dd7
 		}
 	}
 }
